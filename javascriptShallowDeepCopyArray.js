@@ -540,3 +540,250 @@ logDivider('end of modifyNestedObjectShallowCopyUsingSpread');
 logDivider('modifyNestedObjectWithoutCopy');
 modifyNestedObjectWithoutCopy();
 logDivider('end of modifyNestedObjectWithoutCopy');
+
+
+// ===== modifyNestedArrayDeepCopyUsingStructuredClone =====
+
+
+
+// selectedDocItemBefore:
+//  {
+//   name: 'Manufacturer ProductName 30',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+// selectedDocItemNew:
+//  {
+//   name: 'COCA COLA',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+// mockDataDocItemAfter:
+//  {
+//   name: 'Manufacturer ProductName 30',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+
+// ===== end of modifyNestedArrayDeepCopyUsingStructuredClone =====
+
+
+
+
+// ===== modifyNestedArrayShallowCopyUsingSpread =====
+
+
+
+// selectedDocItemBefore:
+//  {
+//   name: 'Manufacturer ProductName 30',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+// selectedDocItemNew:
+//  {
+//   name: 'COCA COLA',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+// mockDataDocItemAfter:
+//  {
+//   name: 'Manufacturer ProductName 30',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+
+// ===== end of modifyNestedArrayShallowCopyUsingSpread =====
+
+
+
+
+// ===== modifyNestedArrayWithoutCopy =====
+
+
+
+// selectedDocItemBefore:
+//  {
+//   name: 'Manufacturer ProductName 30',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+// selectedDocItemNew:
+//  {
+//   name: 'COCA COLA',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+// selectedDocItemAfter:
+//  {
+//   name: 'Manufacturer ProductName 30',
+//   categories: 'some categories',
+//   price: 149850,
+//   quantity: 1,
+//   weight: 1,
+//   length: 13,
+//   width: 11,
+//   height: 11,
+//   isFragile: true,
+//   _id: '63cabd90d7b4d3fbb01c8d74'
+// }
+
+
+
+
+// ===== end of modifyNestedArrayWithoutCopy =====
+
+
+
+
+// ===== modifyNestedObjectDeepCopyUsingStructuredClone =====
+
+
+
+// selectedDocBefore:
+//  { lat: -127.001, lng: 127.001 }
+
+
+
+// selectedDocNew:
+//  { lat: -127.001, lng: 127.001, accuracy: 90 }
+
+
+
+// mockDataDocAfter:
+//  { lat: -127.001, lng: 127.001 }
+
+
+
+
+// ===== end of modifyNestedObjectDeepCopyUsingStructuredClone =====
+
+
+
+
+// ===== modifyNestedObjectShallowCopyUsingSpread =====
+
+
+
+// selectedDocBefore:
+//  { lat: -127.001, lng: 127.001 }
+
+
+
+// selectedDocNew:
+//  { lat: -127.001, lng: 127.001, accuracy: 90 }
+
+
+
+// mockDataDocAfter:
+//  { lat: -127.001, lng: 127.001 }
+
+
+
+
+// ===== end of modifyNestedObjectShallowCopyUsingSpread =====
+
+
+
+
+// ===== modifyNestedObjectWithoutCopy =====
+
+
+
+// selectedDocBefore:
+//  { lat: -127.001, lng: 127.001 }
+
+
+
+// selectedDocNew:
+//  { lat: -127.001, lng: 127.001, accuracy: 90 }
+
+
+
+// selectedDocAfter:
+//  { lat: -127.001, lng: 127.001 }
+
+
+
+
+// ===== end of modifyNestedObjectWithoutCopy =====

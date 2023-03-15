@@ -110,3 +110,61 @@ logDivider('end of deepCopyUsingStructuredClone');
 logDivider('shallowCopyUsingSpread');
 shallowCopyUsingSpread();
 logDivider('end of shallowCopyUsingSpread');
+
+
+// ===== deepCopyUsingStructuredClone =====
+
+
+
+// mockData.home?.searchParams before:
+//  { category: 'HoeCay', search: 'HoeSch' }
+
+
+
+// mockDataStructuredClone.home?.searchParams before:
+//  { category: 'HoeCay', search: 'HoeSch' }
+
+
+
+// mockDataStructuredClone.home?.searchParams after:
+//  { category: 'ASD', search: 'QWE' }
+
+
+
+// mockData.home?.searchParams after:
+//  { category: 'HoeCay', search: 'HoeSch' }
+
+
+
+
+// ===== end of deepCopyUsingStructuredClone =====
+
+
+
+
+// ===== shallowCopyUsingSpread =====
+
+
+
+// mockData.home?.searchParams before:
+//  { category: 'HoeCay', search: 'HoeSch' }
+
+
+
+// mockDataSpreadCopy.home?.searchParams before:
+//  { category: 'HoeCay', search: 'HoeSch' }
+
+
+
+// mockDataSpreadCopy.home?.searchParams after:
+//  { category: 'ASD', search: 'QWE' }
+
+
+
+// mockData.home?.searchParams after:
+//  { category: 'ASD', search: 'QWE' }
+
+
+
+
+// ===== end of shallowCopyUsingSpread =====
